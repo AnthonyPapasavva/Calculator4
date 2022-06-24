@@ -1,0 +1,38 @@
+package com.qa.main;
+
+public class Iterations {
+
+	public static void main(String[] args) {
+		
+		int catCount =0;
+		boolean notEnoughCats = true;
+		
+		while(notEnoughCats) {
+			System.out.println("Another cat");
+			catCount++;
+			
+			if(catCount > 273) {
+				notEnoughCats = false;
+			}
+	
+		}
+		
+		System.out.println("Too many cats what do I do?");
+	}
+
+
+	public static void main1(String[] args) {
+		boolean playing = false;
+		do {
+			System.out.println("Playing");
+			int playCount = 0;
+			playCount++;
+
+			if(playCount > 10) {
+				playing = false;
+        }
+    } 	while(playing);
+
+    System.out.println("Game Over!");
+}
+}

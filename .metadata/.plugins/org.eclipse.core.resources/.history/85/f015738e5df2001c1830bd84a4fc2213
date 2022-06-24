@@ -1,0 +1,16 @@
+package com.qa.demo.main;
+
+public class Runner {
+	public static void main(String[] args) {
+		String message = "Hello World!";
+		System.out.println("Hello World!");
+	}
+
+public static void printMessage() {
+	String message = "Hello World!";
+	System.out.println(message);
+}
+
+public static void main(String[] args) {
+	printMessage();
+}

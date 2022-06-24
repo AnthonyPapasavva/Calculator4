@@ -1,0 +1,24 @@
+package com.qa.main;
+
+import com.qa.datatype.domain.Customer;
+
+public class Runner {
+	public static void main(String[] args) {
+		
+	Customer cust = new Customer();
+	cust.setFirstName("Anthony");
+	cust.setSurname("Papasavva");
+	cust.setEmail("anthonypapasavva@gmail.com");
+	
+	System.out.println(cust.getFirstName() + " " + cust.getSurname() + " " + cust.getEmail());
+	
+	}
+}
+
+
+// Create a new project, making sure to have a main/runner, packages, etc.
+// Create a Customer class with the following attributes: email, firstname, lastname, age, count;
+// Using your Customer, create new instances, setting the above if applicable.
+// Add a static identifier to the count attribute, use Community to aid you in creating a Customer counter!
+// Now we'll want to output some fancy strings, so add a formatted toString method as well.
+// Finally add a constructor to make life easier.

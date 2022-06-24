@@ -1,0 +1,20 @@
+package com.qa.main;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		int catCount =0;
+		boolean notEnoughCats = true;
+		
+		while(notEnoughCats) {
+			System.out.println("Another cat");
+			catCount++;
+			
+			if(catCount > 6) {
+				notEnoughCats = false;
+			}
+	
+		}
+	}
+}

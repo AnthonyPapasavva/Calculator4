@@ -1,0 +1,15 @@
+package com.qa.main;
+
+public class Flowchart3 {
+
+	public static void main(String[] args) {
+		for(int A=100; A%2==0; A++) {
+			if(A <= 200) {
+				continue;
+			}
+			
+			System.out.println(A);
+		}
+	}
+	
+}

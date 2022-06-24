@@ -1,0 +1,39 @@
+package com.qa.main;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		int catCount =0;
+		boolean notEnoughCats = true;
+		
+		while(notEnoughCats) {
+			System.out.println("Another cat");
+			catCount++;
+			
+			if(catCount > 273) {
+				notEnoughCats = false;
+			}
+	
+		}
+	}
+}
+
+public class Iteration {
+
+	public static int playCount = 0;
+	public static boolean playing = true;
+
+	public static void main(String[] args) {
+		do {
+			System.out.println("Playing");
+			playCount++;
+
+			if(playCount > 10) {
+				playing = false;
+        }
+    } 	while(playing);
+
+    System.out.println("Game Over!");
+}
+}

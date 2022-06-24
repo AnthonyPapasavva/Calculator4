@@ -1,0 +1,29 @@
+package com.qa.demo.main;
+
+public class Runner {
+
+	public static void printMessage(String message) {
+		System.out.println(message);
+
+	}
+	
+	public static void main(String[] args) {
+		printMessage("Hello World!");
+	}
+}
+
+
+//	Output "Hello World!" to the console.
+	System.out.println("Hello World!");
+//	Store "Hello World!" in a variable and then output it to the console.
+	String str = "Hello World!";
+	System.out.println(str);
+//	Create a method that takes a String as a parameter, and then outputs it to the console.
+	methodOne("Hello World!");
+//	Modify your method to return a String once called, which you then use to output to the console.
+	System.out.println(methodTwo("Hello World!"));
+	
+	String string2 = methodTwo("str)");
+	}
+	
+}

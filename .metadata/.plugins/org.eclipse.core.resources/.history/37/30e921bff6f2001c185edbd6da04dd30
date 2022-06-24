@@ -1,0 +1,5 @@
+package com.qa.datatype.domain;
+
+public class Customer {
+
+}
